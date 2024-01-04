@@ -1,6 +1,7 @@
 
 import Brand from "@/Components/Brand";
 import Community from "@/Components/Community";
+import Footer from "@/Components/Footer";
 import Hero from "@/Components/Hero";
 import NewArrivals from "@/Components/NewArrivals";
 import Payday from "@/Components/Payday";
@@ -19,6 +20,7 @@ const Home = () => {
             <YoungFavorites />
             <Voucher />
             <Community />
+            <Footer />
         </div>
     );
 };
