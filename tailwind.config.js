@@ -13,7 +13,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                logoText: ['Poppins', 'sans-serif'],
+                sans: ['Poppins', 'sans-serif'],
             },
         },
     },
