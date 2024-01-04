@@ -25,7 +25,7 @@ const links = [
 
 const TopNav = () => {
     return (
-        <div className="m-0 flex items-center font-bold justify-between w-full py-8">
+        <div className="m-0 flex items-center font-bold justify-between py-8  mx-[60px]">
             <div className="logo-container flex gap-3 items-center">
                 <img src={Logo} alt="logo" className="w-7 h-7" />
                 <h1 className="text-2xl">FASHION</h1>

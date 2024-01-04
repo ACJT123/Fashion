@@ -5,7 +5,7 @@ import "../../css/Home/Hero.scss";
 
 const Hero = () => {
     return (
-        <div className="hero-container bg-[#F4F6F5] px-5 pt-5 flex rounded-[40px] justify-between">
+        <div className="hero-container bg-[#F4F6F5] px-5 pt-5 flex rounded-[40px] justify-between mx-[60px]">
             {/* phases */}
             <div className="phase-and-btn-container ml-[80px] mt-[20px]">
                 <div className="phase w-min font-black leading-snug text-[40px]">

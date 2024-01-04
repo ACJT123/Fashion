@@ -9,10 +9,10 @@ const brands = [Brand1, Brand2, Brand3, Brand4, Brand5, Brand6];
 
 const Brand = () => {
     return (
-        <div className="brands-container flex justify-around items-center px-3 py-4 bg-[#EBD96B]">
+        <div className="brands-container flex justify-around items-center px-16 py-10 my-[40px] bg-[#EBD96B]">
             {brands.map((brand, index) => (
                 <div key={index}>
-                    <img src={brand} alt="brand" className="w-[80px] mix-blend-multiply" />
+                    <img src={brand} alt="brand" className="w-[100px] mix-blend-multiply" />
                 </div>
             ))}
         </div>

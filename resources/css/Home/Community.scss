@@ -1,0 +1,41 @@
+form {
+    /* This bit sets up the horizontal layout */
+    display: flex;
+    flex-direction: row;
+
+    /* I've used padding so you can see the edges of the elements. */
+    padding: 1px;
+
+    input {
+        /* Tell the input to use all the available space */
+        flex-grow: 2;
+        /* And hide the input's outline, so the form looks like the outline */
+        border: none;
+        outline: none;
+        width: 300px;
+    }
+
+    /* remove the input focus blue box, it will be in the wrong place. */
+    input[type="text"] {
+        border-radius: 5px 0 0 5px;
+        border: 0;
+        outline: 0;
+
+        &:focus {
+            border: none;
+            box-shadow: none; // Remove the blue box shadow
+        }
+    }
+    button {
+        background-color: white;
+        border-radius: 0 5px 5px 0;
+        padding-right: 5px;
+
+        p {
+            background-color: black;
+            color: white;
+            padding: 4px 18px;
+            border-radius: 5px;
+        }
+    }
+}
