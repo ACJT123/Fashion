@@ -18,7 +18,7 @@ const links = [
         url: "/lifestyle",
     },
     {
-        name: "signup",
+        name: "sign up",
         url: "/signup",
     },
 ];
@@ -35,7 +35,7 @@ const TopNav = () => {
                     <div key={link.name}>
                         <a
                             href={link.url}
-                            className={`text-xl font-medium uppercase ${link.name === "signup" ? "text-white bg-black py-3 px-5 rounded-lg" : ""}`}
+                            className={`text-xl font-medium uppercase ${link.name === "sign up" ? "text-white bg-black py-3 px-6 rounded-lg" : ""}`}
                         >
                             {link.name}
                         </a>
